@@ -1,0 +1,337 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: #2f2f2f;
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color:#FF5733;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+
+}
+
+.navbar{
+
+    display: flex;
+    margin-right: 10px;
+
+}
+.logo {
+    margin: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.logo img{
+    height: 50px;
+
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background-color: #3f3f3f;
+
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh !important;
+    background-image: url(../imag/imagebanner.jpg);
+   background-size: cover;
+
+}
+
+.cta-button {
+    background-color: #FF5733;
+    color: white;
+    padding: 1px 5px;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: 2px;
+    margin-left: 13px;
+
+}
+
+  h3{
+    background-color: #FF5733;
+    color: white;
+    padding: 1px 5px;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: 2px;
+    margin-left: 13px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+h3:hover {
+    background-color: #FF6F49;
+
+}
+
+.btn-Home{
+    margin-top: 45px;
+}
+.cta-button:hover {
+    background-color: #FF6F49;
+}
+
+.Home{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    color : #FF5733;
+}
+
+.section{
+
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    color :white
+
+}
+
+
+header p {
+    margin-bottom: 45px;
+    font-size: 18px;
+    color : #FF5733;
+
+}
+
+
+
+
+.content{
+    height: 50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 6rem 3rem 3rem 3rem;
+    max-width: 1300px;
+    font-size: 13px;
+}
+
+
+.box{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.box-container.box{
+
+   height: 11rem;
+   width: 17rem;
+   background: #101010;
+   text-align: center;
+   border-radius: 1rem;
+   box-shadow: 0 .3 5rem;
+   
+}
+
+.box-container.box img{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+}
+
+
+.product p,h3{
+
+    color:white;
+}
+
+footer {
+    display: flex;
+    background:#e9eaec;
+    justify-content: space-between;
+    padding-top: 20px;
+   
+}
+
+.resdes_sociales{
+    margin-bottom: 40px;
+    margin-left: 56px;
+}
+
+h5 {
+    margin-right: 56px;
+    color : #FF5733;
+}
+
+footer a:hover{
+    text-decoration:underline;
+    color : #FF5733;
+}
+
+/* About Us */
+
+.us-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.us-container.us{
+
+    height: 11rem;
+    width: 17rem;
+    background: #e9eaec;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+
+}
+.about{
+    width: 45%;
+    height: 65%;
+    display: inline-grid;
+    text-align: center;
+    border: 1px solid white;
+    margin: 21px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.h{
+    background-color: #FF5733;
+    color: white;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+   
+}
+
+
+ .h{
+    background-color: #FF5733;
+
+}
+
+/* Contactos */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+    padding-left: 70px;
+}
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px
+}
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.container-form a i{
+    color: #FF5733;
+    margin-right: 10px;
+}
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.container-form .btn-enviar{
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: #FF5733;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover{
+    background:#FF5733;
+}
+
+
+
+
+
+
+
